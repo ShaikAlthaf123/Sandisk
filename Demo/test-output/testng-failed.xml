@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="internetexplorer(failed)" parallel="tests">
+    <parameter name="browser" value="internetexplorer"/>
+    <classes>
+      <class name="com.abc.bang.CrossBrowser">
+        <methods>
+          <include name="test1"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- com.abc.bang.CrossBrowser -->
+    </classes>
+  </test> <!-- internetexplorer(failed) -->
+</suite> <!-- Failed suite [Suite] -->
